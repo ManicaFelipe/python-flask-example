@@ -7,6 +7,8 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
+ENV APP_PORT=3000
+
 EXPOSE 3000
 
 # Obs: não recomendado para produção
